@@ -1,5 +1,7 @@
 import java.util.Stack;
 
+
+/*The push method will add a new value in the stack, pop will delete, peek will print the last value */
 public class ReverseStack {
     
     public static void main(String[] args) {
