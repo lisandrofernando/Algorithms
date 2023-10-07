@@ -7,6 +7,7 @@ static Stack<Integer> temp = new Stack<Integer>();
     public static void main(String[] args) {
         customPush(14);
         customPush(2);
+        customPop();
         customPush(7);
         customPush(4);
         customPush(12);

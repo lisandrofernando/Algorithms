@@ -3,7 +3,7 @@ public class Fibonacci {
 
     public static void main(String[] args) {
 
-        int value = Fibo(7);
+        int value = Fibo(9);
         System.out.println(value);
     }
 
