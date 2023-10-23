@@ -8,7 +8,7 @@ public class RecursiveAlg {
     public static void main(String[] args) throws Exception {
 
         int value = someOf(myArray.length - 1);
-        System.out.println(value);
+        System.out.println("The value is:"+value);
         ArraySum(myArray);
     }
 

@@ -20,18 +20,18 @@ public class ReverseStack {
         moveStack(stack1, stack2);
         moveStack(stack2, stack);
         System.out.println(stack);
-         System.out.println(sortedStack(stack));
+        System.out.println(sortedStack(stack));
     }
 
-    private static Stack<Integer> sortedStack(Stack<Integer> stack) {
+    private static Stack<Integer> sortedStack(Stack<Integer> stac) {
 
         Stack<Integer> tempstk = new Stack<Integer>();
 
-        while(!stack.isEmpty()){
-            int temp = stack.pop();
+        while(!stac.isEmpty()){
+            int temp = stac.pop();
                 while(!tempstk.isEmpty() && tempstk.peek()>temp  ){
                     int tem = tempstk.pop();
-                    stack.push(tem);
+                    stac.push(tem);
               }
               tempstk.push(temp);
         }

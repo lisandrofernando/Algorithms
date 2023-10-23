@@ -53,7 +53,7 @@ public class HashMapReview {
     System.out.println(l);
     System.out.println(l.get(2));
     System.out.println(l.contains("lisandro"));
-    l.indexOf("Loe");
+    l.indexOf("Leo");
     l.isEmpty();
      System.out.println(l.size());
 

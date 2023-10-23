@@ -3,6 +3,7 @@ public class PrintRows {
     public static void main(String[] args) {
         int rows = 5;
         int n =3;
+        
 
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= i; j++) {
@@ -20,15 +21,13 @@ public class PrintRows {
             }
             System.out.println("");
         }
-        // for (int i=1; i<=5; i++){
-        //     for(int j=1; j<=i; j++){
-        //         if(j%3==0){
-        //             System.out.print(n);
-        //             System.out.print("\t");
-        //             n++; 
-        //         }
-        //     }
-        //     System.out.println("");
-        // }
+        for (int i=1; i<=rows; i++){
+            for(int j=1, p=1; j<=i; j++, p++){
+             System.out.print(p+"");
+             System.out.print("\t");
+            }
+            System.out.println("");
+        }
     }
+
 }

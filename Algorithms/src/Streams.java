@@ -51,10 +51,10 @@ public class Streams {
 
     public static void anotherStream() {
         
-        Stream.of(2,5,8,12,14,18,22).forEach(d->System.out.println(d));
-        Stream.of(1,1,2,4,4,5,6,6,7,7).distinct().sorted().forEach(b->System.out.println("The unique value is:"+ b));
-       Stream.of(18,28,39,45,55,66,78,89,92,130).max(Comparator.comparing(Integer::intValue)).ifPresent(num->System.out.println("The max value is:"+num));
-       Stream.of(18,28,39,45,55,66,78,89,92,130).min(Comparator.comparing(Integer::intValue)).ifPresent(num->System.out.println("The min value is:"+num));
+      Stream.of(2,5,8,12,14,18,22).forEach(d->System.out.println(d));
+      Stream.of(1,1,2,4,4,5,6,6,7,7).distinct().sorted().forEach(b->System.out.println("The unique value is:"+ b));
+      Stream.of(18,28,39,45,55,66,78,89,92,130).max(Comparator.comparing(Integer::intValue)).ifPresent(num->System.out.println("The max value is:"+num));
+      Stream.of(18,28,39,45,55,66,78,89,92,130).min(Comparator.comparing(Integer::intValue)).ifPresent(num->System.out.println("The min value is:"+num));
     }
 
     public static void Map() {
@@ -85,7 +85,7 @@ public class Streams {
         Integer arr[] = {2,5,8,12,14,24};
 
         List<Integer> list = Arrays.asList(arr);
-        list.stream().sorted(Comparator.reverseOrder()).skip(2).limit(1).forEach(a->System.out.println(a));
+        list.stream().sorted(Comparator.reverseOrder()).skip(2).limit(1).forEach(a->System.out.println("The third highest value is:"+a));
 
         List<Integer> numbers = Arrays.asList(11,2,3,45,67,9,90,87,8,12);
 

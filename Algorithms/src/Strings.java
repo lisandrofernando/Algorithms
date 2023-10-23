@@ -12,7 +12,7 @@ public class Strings {
     String b = "New Year";
     System.out.println(a.charAt(3));
     System.out.println(b.indexOf("Year", 2));
-     
+
     if(a.equals(b)){
         System.out.println("We good");
     }
