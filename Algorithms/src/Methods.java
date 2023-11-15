@@ -74,4 +74,11 @@ public class Methods {
         method.getData();
         method1.getData();
     }
+
+    public int multipleMethods(int num, int todouble){
+        int count = 0;
+
+        return count;
+
+    }
 }
