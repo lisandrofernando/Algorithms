@@ -11,7 +11,20 @@ public class PrintUnique {
             }
         }
         System.out.println(myArr[myArr.length-1]);
+        UniqueChar();
     }
+    public static void UniqueChar(){
 
+        String str = "aabccdee";
+        String uniques = "";
+
+        for(int i=0; i<str.length(); i++){
+            char ch = str.charAt(i);
+            if(str.indexOf(ch) == str.lastIndexOf(ch)){
+                uniques += ch; 
+            }
+        }
+        System.out.println(uniques);
+    }
 
 }

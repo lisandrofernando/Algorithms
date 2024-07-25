@@ -15,5 +15,23 @@ public class Palindrome {
             j--;
         }
          System.out.println("Palindromo");
+         palCom();
+    }
+
+    public static void palCom(){
+
+        String str = "levEl";
+        String reverString = "";
+
+        for(int i=str.length()-1; i>=0; i--){
+            reverString+= str.charAt(i);
+        }
+
+        if(str.equalsIgnoreCase(reverString)){
+            System.out.println("Palindrome");
+        }else{
+            System.out.println("Not Palindrome");
+        }
+
     }
 }

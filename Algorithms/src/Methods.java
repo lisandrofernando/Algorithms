@@ -73,6 +73,7 @@ public class Methods {
         //System.out.println(method);
         method.getData();
         method1.getData();
+        flag();
     }
 
     public int multipleMethods(int num, int todouble){
@@ -80,5 +81,26 @@ public class Methods {
 
         return count;
 
+    }
+
+    // public List<String, Integer>(String name, int ID){
+    //         return List;
+    // }
+
+    //  public  List<Integer, String>(){
+
+    // }
+
+    private static boolean flag(){
+
+        boolean flagi = true;
+      
+      if(flagi=true){
+        System.out.println("great");
+      }
+      else if(flagi=false){
+        System.out.println("great great");
+      }
+    return flagi;
     }
 }
