@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+//Creating a constructor for methods class, which accepts arguments.
 public class Methods {
     
     String name;
@@ -74,6 +77,8 @@ public class Methods {
         method.getData();
         method1.getData();
         flag();
+        weig(8);
+        bonus(8);
     }
 
     public int multipleMethods(int num, int todouble){
@@ -83,24 +88,32 @@ public class Methods {
 
     }
 
-    // public List<String, Integer>(String name, int ID){
-    //         return List;
-    // }
-
     //  public  List<Integer, String>(){
-
     // }
 
     private static boolean flag(){
 
         boolean flagi = true;
       
-      if(flagi=true){
+      if(flagi){
         System.out.println("great");
       }
-      else if(flagi=false){
+      else if(flagi){
         System.out.println("great great");
       }
     return flagi;
     }
+
+    public static int weig(int x){
+       int result =  x * 30;
+       System.out.println(result);
+        return result;
+    }
+
+    public static int bonus(int y){
+        int result =  weig(8) + 50;
+        System.out.println(result);
+        return result;
+    }
+    
 }
